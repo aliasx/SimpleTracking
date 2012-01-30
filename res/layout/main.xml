@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    >
+         
+<TableLayout android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:layout_width="fill_parent">
+    <TableRow android:id="@+id/tableRow00" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<TextView android:text="Version" android:id="@+id/tvVersionText" android:layout_width="100dp" android:layout_height="wrap_content" android:textColor="#000000" android:paddingLeft="5dp"></TextView>    
+		<TextView android:text="0" android:id="@+id/tvVersion" android:layout_width="100dp" android:layout_height="wrap_content" android:textColor="#000000"></TextView>		
+	</TableRow>    
+	<TableRow android:id="@+id/tableRow0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	    <TextView android:text="IMEI" android:id="@+id/textView0" android:layout_width="100dp" android:layout_height="wrap_content" android:textColor="#000000" android:paddingLeft="5dp"></TextView>
+        <TextView android:text="0" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:id="@+id/tvImei" android:textColor="#000000"></TextView>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	    <TextView android:text="Latitude" android:id="@+id/textView1" android:layout_width="100dp" android:layout_height="wrap_content" android:textColor="#000000" android:paddingLeft="5dp"></TextView>
+        <TextView android:text="0.0" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/tvLat" android:textColor="#000000"></TextView>
+    </TableRow>
+        
+    <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:text="Longitude" android:id="@+id/textView2" android:layout_width="100dp" android:layout_height="wrap_content" android:textColor="#000000" android:paddingLeft="5dp"></TextView>
+        <TextView android:text="0.0" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/tvLon" android:textColor="#000000"></TextView>
+    </TableRow>
+    
+    <TableRow android:id="@+id/tableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:text="Accuracy" android:id="@+id/textView02" android:layout_width="100dp" android:layout_height="wrap_content" android:textColor="#000000" android:paddingLeft="5dp"></TextView>
+        <TextView android:text="0" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/tvAccuracy" android:textColor="#000000"></TextView>
+    </TableRow>
+    
+    <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:text="Отправлено" android:id="@+id/textView3" android:layout_width="100dp" android:layout_height="wrap_content" android:textColor="#000000" android:paddingLeft="5dp"></TextView>
+        <TextView android:text="0" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/tvPackets" android:textColor="#000000"></TextView>
+    </TableRow>    
+
+    <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:text="Когда" android:id="@+id/textView4" android:layout_width="100dp" android:layout_height="wrap_content" android:textColor="#000000" android:paddingLeft="5dp"></TextView>
+        <TextView android:text="0" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/tvLastTime" android:textColor="#000000"></TextView>
+    </TableRow>
+    
+    <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:text="Ошибок" android:id="@+id/textView5" android:layout_width="100dp" android:layout_height="wrap_content" android:textColor="#000000" android:paddingLeft="5dp"></TextView>
+        <TextView android:text="0" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:id="@+id/tvErrorPackets" android:textColor="#000000"></TextView>
+    </TableRow>
+</TableLayout>
+
+<RelativeLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/btExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Выход" />
+
+    <Button
+        android:id="@+id/btSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Настройки" />
+
+</RelativeLayout>
+
+</LinearLayout>

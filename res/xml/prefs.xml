@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+<PreferenceCategory android:key="serverCat" android:title="Настройки передачи"><EditTextPreference android:title="Адрес сервера" android:key="serverName" android:defaultValue="server.simpletracking.org:460"></EditTextPreference><CheckBoxPreference android:key="useSsl" android:title="Использовать SSL" android:defaultValue="true" android:summary="Использовать защищенное соединение для передачи данных на сервер"></CheckBoxPreference><EditTextPreference android:title="Период передачи, сек" android:defaultValue="20" android:numeric="integer|decimal" android:key="sendTime" android:summary="Через какой период отправлять данные на сервер"></EditTextPreference>
+    <EditTextPreference android:title="Точность, метров" android:defaultValue="30" android:numeric="integer|decimal" android:key="sendAccuracy" android:summary="С какой минимальной точностью отправлять данные"></EditTextPreference>
+    
+</PreferenceCategory>
+
+
+<PreferenceCategory android:title="Общие настройки" android:key="serviceCat"><CheckBoxPreference android:title="Оставлять включенным" android:key="alwaysOn" android:defaultValue="false"></CheckBoxPreference><CheckBoxPreference android:key="runMinimized" android:title="Запускать свернутым" android:defaultValue="false"></CheckBoxPreference>
+<CheckBoxPreference android:summary="Использовать Push уведомления для запроса местоположения" android:title="Push команды" android:defaultValue="false" android:key="usePush" /><CheckBoxPreference android:key="gpsOff" android:title="Отключать GPS" android:defaultValue="false" android:summary="Автоматически выключать и включать опрос GPS"></CheckBoxPreference>
+<EditTextPreference android:defaultValue="60" android:key="gpsOnTime" android:title="Включать GPS через, сек" android:numeric="integer|decimal" android:summary="Через какое время включать опрос GPS"></EditTextPreference><EditTextPreference android:key="gpsOffTime" android:title="Выключать GPS через, сек" android:defaultValue="60" android:numeric="integer|decimal" android:summary="Через какое время выключть опрос GPS"></EditTextPreference>
+
+
+</PreferenceCategory>
+
+   
+</PreferenceScreen>

@@ -1,8 +1,6 @@
 package org.simpletracking.www;
 /* The part of SimpleTracking open source project. Web: http://simpletracking.org */
 
-import java.util.Timer;
-import java.util.TimerTask;
 import com.google.android.c2dm.C2DMessaging;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -15,12 +13,10 @@ import android.net.wifi.WifiManager;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
-import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.provider.Settings.Secure;
 import android.telephony.TelephonyManager;
 import android.util.Log;
-import android.widget.Toast;
 
 public class SimpleTrackingService extends Service {
 	@Override

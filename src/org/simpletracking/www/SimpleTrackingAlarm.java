@@ -1,5 +1,5 @@
 package org.simpletracking.www;
-
+/* The part of SimpleTracking open source project. Web: http://simpletracking.org */
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;

@@ -185,7 +185,7 @@ public class SimpleTrackingActivity extends Activity {
 	    long when = System.currentTimeMillis();         // notification time
 	    Context context0 = getApplicationContext();      // application Context
 	    CharSequence contentTitle = this.getString(R.string.app_name);  // expanded message title
-	    CharSequence contentText = "Система работает";      // expanded message text
+	    CharSequence contentText = "";      // expanded message text
 	
 	    Intent notificationIntent = new Intent(this, SimpleTrackingActivity.class);
 	    notificationIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_SINGLE_TOP);

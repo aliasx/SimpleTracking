@@ -2,4 +2,28 @@
 <resources>
     <string name="hello">Hello World, SimpleTrackingActivity!</string>
     <string name="app_name">Simple Tracking</string>
+    <string name="exit">Exit</string>
+    <string name="settings">Settings</string>
+    <string name="send">Packets send</string>
+    <string name="when">Send time</string>
+    <string name="errors">Error packets</string>
+    <string name="servercat">Transmition settings</string><string name="srvaddr">Server address</string>
+    <string name="usessl">Use SSL</string>
+    <string name="usessldesc">Use secure connection</string>
+    <string name="sendtime">Perid to send, seconds</string>
+    <string name="sendtimedesc"></string>
+    <string name="sendaccuracy">Minimal accuracy to send</string>
+    <string name="sendaccuracyd"></string>
+    
+    <string name="servicecat">Main settings</string>
+    <string name="alwayson">Always on</string>
+    <string name="runminimized">Run minimized</string>
+    <string name="usepush">Use push commands</string>
+    <string name="usepushdesc">Use push (C2DM) commands</string>
+    <string name="gpsoff">Automatict GPS on/off</string>
+    <string name="gpsoffdesc">Periodically switch on/off GPS reciver</string>
+    <string name="gpsontime">GPS on time, seconds</string>
+    <string name="gpsontimedesc">Periodically switch on GPS reciver</string>
+    <string name="gpsofftime">GPS off time, seconds</string>
+    <string name="gpsofftimedesc">Periodically switch off GPS reciver</string>
 </resources>

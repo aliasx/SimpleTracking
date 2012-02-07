@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SimpleTrackingActivity!</string>
+    <string name="app_name">Simple Tracking</string>
+    <string name="exit">Выход</string>
+    <string name="settings">Настройки</string>
+    <string name="send">Отправлено</string>
+    <string name="when">Когда</string>
+    <string name="errors">Ошибок</string>
+    <string name="servercat">Настройки передачи</string><string name="srvaddr">Адрес сервера</string>
+    <string name="usessl">Использовать SSL</string>
+    <string name="usessldesc">Использовать защищенное соединение для передачи данных на сервер</string>
+    <string name="sendtime">Период передачи, сек</string>
+    <string name="sendtimedesc">Через какой период отправлять данные на сервер</string>
+    <string name="sendaccuracy">Точность, метров</string>
+    <string name="sendaccuracyd">С какой минимальной точностью отправлять данные</string>
+    
+    <string name="servicecat">Общие настройки</string>
+    <string name="alwayson">Оставлять включенным</string>
+    <string name="runminimized">Запускать свернутым</string>
+    <string name="usepush">Push команды</string>
+    <string name="usepushdesc">Использовать Push уведомления для запроса местоположения</string>
+    <string name="gpsoff">Отключать GPS</string>
+    <string name="gpsoffdesc">Автоматически выключать и включать опрос GPS</string>
+    <string name="gpsontime">Включать GPS через, сек</string>
+    <string name="gpsontimedesc">Через какое время включать опрос GPS</string>
+    <string name="gpsofftime">Выключать GPS через, сек</string>
+    <string name="gpsofftimedesc">Через какое время выключть опрос GPS</string>
+</resources>
